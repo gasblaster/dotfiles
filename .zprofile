@@ -68,4 +68,4 @@ new_branch() {
   git checkout -b "${1}_${temp_date}" 
 }
 
-
+eval "$(/opt/homebrew/bin/brew shellenv)"
